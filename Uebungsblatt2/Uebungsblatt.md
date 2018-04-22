@@ -32,6 +32,58 @@ public class aufgabe5b {
 
 Aufgabe 6
 
+- a
+
+```java
+import java.lang.Double;
+import java.util.*;
+
+public class Aufgabe6a {
+  public static void main(String[] args) {
+    try {
+      if(args.length == 2) {
+        double input1, input2;
+        input1 = Double.parseDouble(args[0]);
+        input2 = Double.parseDouble(args[1]);
+        System.out.println(input1*input2);
+      }
+    } catch(NumberFormatException e) {
+      System.err.println("Error "+e.getMessage());
+    }
+  }
+}
+```
+
+- b
+
+```java
+import java.util.ArrayList;
+import java.lang.Math;
+
+public class Aufgabe6b {
+  public static void main(String[] args) {
+      ArrayList<Double> list = new ArrayList<Double>();
+
+      double sum = 0;
+      double average = 0;
+      double n = Math.ceil(Math.random() * 100000);
+
+      for(int i = 0; i < n; i++) {
+        list.add(Math.random());
+      }
+
+      for(int j = 0; j < n; j++) {
+      /* Addiert alle Eintraege aus der ArrayList */
+      sum += list.get(j);
+      }
+
+      /* Printed den Durchschnitt der ArrayList Eintraege */
+      System.out.println(average = sum / n);
+
+  }
+}
+```
+
 Aufgabe 7
 
 - ai)
