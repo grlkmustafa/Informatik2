@@ -35,6 +35,7 @@ Aufgabe 6
 Aufgabe 7
 
 - ai)
+
       - Attribut 'name' mit Datenstrukturinvariante String
 
       - Attribut 'priority' mit Datenstrukturinvariante Integer
@@ -87,6 +88,7 @@ Aufgabe 7
   ```
 
 - bi)
+
       - Attribut 'rowDimension' mit Datenstrukturinvariante Integer
 
       - Attribut 'columnDimension' mit Datenstrukturinvariante Integer
