@@ -36,6 +36,7 @@ Aufgabe 7
 
 - ai)
       - Attribut 'name' mit Datenstrukturinvariante String
+
       - Attribut 'priority' mit Datenstrukturinvariante Integer
 
 - aii)
@@ -87,7 +88,9 @@ Aufgabe 7
 
 - bi)
       - Attribut 'rowDimension' mit Datenstrukturinvariante Integer
+
       - Attribut 'columnDimension' mit Datenstrukturinvariante Integer
+
       - Attribut 'values' mit Datenstrukturinvariante 2-Dimensionales Integerfeld
 
 - bii)
