@@ -138,8 +138,9 @@ Aufgabe 7
 
 - aii)
 
-  ```java
- package blatt02;
+```java
+
+package blatt02;
 
 import java.util.zip.DataFormatException;
 
@@ -159,7 +160,8 @@ public class Aufgabe_7a {
         }
     }
 }
-  ```
+
+```
   
 Klasse Hobby zu aii)
 
